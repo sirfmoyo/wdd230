@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mulish:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #c5ffff;
+    --secondary-color: #A78682;
+    --accent1-color: #56203D;
+    --accent2-color: #B3DEC1;
+  }
+
+  #content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5em;
+    font-size: 18px;
+    font-family: Mulish, Arial, sans-serif;
+    
+    /* background-color: rgba(179, 222, 193, 1); */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    color: #56203D;
+  }
+
+  #maininagebox {
+    background-color: #315659;
+    border-radius: 5px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  #heroimage {
+    text-align: center;
+    color: #fcfbfb;
+  }
+
+  #heroimage {
+    /* width: 100%; */
+    grid-column: 1/3;
+    grid-row: 1/3;
+    height: 140px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+  }
+
+  #heroname h1 {
+    text-align: left;
+    color: white;
+    font-family: Mulish, Arial, sans-serif;
+    /* grid-row: 2/3; */
+  }
+
+  #mytopics {
+    align-content: center;
+    padding: 0px 50px 0px 60px;
+  }
+
+  footer {
+    background-color: #315659; /* #A78682; #4d908e;*/
+    color: #fcfbfb;
+    padding: 15px 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  
+    justify-content: space-between;
+    font-size: 15px;
+
+}
+
+#topichead {
+    text-align: center;
+}
+
+#topicmessage {
+    font-style: italic;
+    text-align: center;
+}
+
+#footerdiv {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: auto;
+    align-content: center;
+
+}
