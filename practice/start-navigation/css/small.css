@@ -1,0 +1,86 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+hi, p {
+    margin: 0 2vw;
+}
+
+nav {
+    background-color: #eee;
+}
+
+nav ul {
+    list-style-type: none; /* this removes the dots on the list, so that its just a blank list*/
+    padding: 0; /* this removes the space on the left */
+    margin: 0;/* this removes the space between the hamburg icon and the list */
+}
+
+/* now we are styling the navigation button */
+
+nav button {
+    margin: 0.2rem 2vw; /* 2vw moved a bit and created a space to the left*/
+    background: transparent;
+    border: none; /*these 2 kwenza kusale nje kuyimizila emithathu, kungela ngitsho any box*/
+    font-size: 2rem; /*ngoba ma singenzanga njalo, kuyabe kukuncane kakhulu*/
+    color: #555;
+}
+
+/* styling the menu items */
+
+nav ul li a {       /*sithi dinga i-nav ethiwa ngu a etholakala phakathi kuka li, yena oku ul, yena oku nav*/
+    display: block;   /*so that the whole width is clickable*/
+    padding: 0.8rem 2vw; /*ukwenzela ukuthi ibe nkulu and clickable, 2vw ngowokuthi kuqondane le hamburger icon*/
+    text-decoration: none; /* lets remove the underlining line kuma links */
+    color: #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5); /* so lapha si lungisa itranparency, sifuna ibe mnyama but ibe ingani its a fade so sisebenzisa u-rgba then o-0 bakuqala abathathu ngabe black, then u-0.5 ngowe transparency level*/
+}
+
+
+
+/* there is something funny nge css-ordering
+ma singasebenzisa lokhu, ma simover i-mouse phezu kuka products, i-color ayitshintshi coz u-active ungaphansi kuka hover, then ngaphansi kule commented items ma singa inter-changer */
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* eqinisweni, lapha sengivalwa ngona angizwisis ukuthi, hanti u-active lowu uku products kuphela, so.....
+okunye why kungela space phakathi laphakathi kuka li.active */
+nav ul li.active a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;/* then lets make the text-color to be white */
+}
+
+
+
+
+
+/* eqinisweni, lapha sengivalwa ngona angizwisis ukuthi, hanti u-active lowu uku products kuphela, so.....
+okunye why kungela space phakathi laphakathi kuka li.active */
+/* nav ul li.active a:hover { */
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /*color: #fff; /* then lets make the text-color to be white */
+/* } */
+
+/* nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

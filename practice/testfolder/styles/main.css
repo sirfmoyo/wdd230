@@ -1,0 +1,53 @@
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #000;
+}
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    padding: 0.75em;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.navigation a:hover {
+    
+}
+
+/* the one click JS toggles the .responsive class from display none (.navigation li) to display block coz the responsive class iss added to end of the class list like this in html #6 
+<ul class ="navigation response"> */
+
+.responsive li {
+    display: block;
+}
+
+/* Media query for medium screens */
+
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: yellow;
+    }
+}
