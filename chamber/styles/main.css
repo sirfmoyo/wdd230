@@ -99,10 +99,12 @@ nav a:hover {
 
 main {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 3fr 1fr;
 	align-items: center;
 	justify-content: center;
 	font-size: 0.85rem;
+	border-color: red;
+	border-style: solid;
 }
 
 main .submenu {
@@ -146,6 +148,37 @@ footer {
 	color: #fff;
 	text-decoration: none;
   }
+
+
+
+  /* now designing the three sections of the main content */
+
+  #left-side {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	border: solid;
+	border-style: solid;
+	border-width: 1em;
+	border-color: blue;
+  }
+
+  #central {
+	display: grid;
+	grid-template-rows: 2fr 1fr;
+	border: solid;
+	border-style: solid;
+	border-width: 1em;
+	border-color: blue;
+  }
+
+  #right-side {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	border: solid;
+	border-style: solid;
+	border-width: 1em;
+	border-color: blue;
+  }
   
   @media screen and (min-width: 600px) {
 	nav {
@@ -179,7 +212,7 @@ footer {
 	}
 
 	main {
-		grid-template-columns: repeat(3, 1fr);
+		/* grid-template-columns: repeat(3, 1fr); */
 	}
 
 	main article {
@@ -207,7 +240,7 @@ footer {
 		font-size: 1.1rem;
 	}
 	main {
-		grid-template-columns: 1fr 1fr 1fr;
+		/* grid-template-columns: 1fr 1fr 1fr; */
 	}
 	main picture {
 		display: block;
