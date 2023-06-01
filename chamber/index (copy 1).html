@@ -35,20 +35,25 @@
           </div>
           <!-- blank space -->
           <div></div>
-          <nav class="navbar">
-            <div class="navbar-brand">
-              <span class="navbar-toggle" id="navbar-toggle">&#9776;</span>
-              <!-- <a href="#" class="navbar-logo">Logo</a> -->
-            </div>
-            <ul class="navbar-menu" id="navbar-menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-            </ul>
-          </nav>
+          <div>
+            <nav id="amalink">
+              <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+              <div class="hamburger" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
+              <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="target-audience.html">Target Audience</a></li> -->
+                <li><a href="target-audience.html">Audience</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
         <div id="lowerheader">
           WDD 230 Project | Last modified: <span id="last-modified"></span>

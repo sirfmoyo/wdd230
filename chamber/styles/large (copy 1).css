@@ -1,0 +1,53 @@
+/* Styles for large-sized viewports */
+
+@media only screen and (min-width: 992px) {
+    /* Set the font size to 18px */
+  html {
+      font-size: 18px;
+    }
+    
+    /* Increase the font size of the navigation links */
+    nav a {
+      font-size: 1.4rem;
+    }
+    
+    /* Set the width of the navigation links to auto */
+    nav a {
+      display: inline-block;
+      width: auto;
+    }
+    
+    /* Show the navigation menu */
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    /* Hide the logo in the large view */
+    .logo {
+      display: none;
+    }
+    
+    /* Show the site name in the large view */
+    .site-name {
+      display: block;
+    }
+    
+    /* Center the site name in the header */
+    .site-name {
+      text-align: center;
+    }
+    
+    /* Set the height of the header to 100px */
+    header {
+      height: 100px;
+    }
+    
+    /* Set the width of the navigation links to auto */
+    nav a {
+      width: auto;
+    }
+  
+  }
+  

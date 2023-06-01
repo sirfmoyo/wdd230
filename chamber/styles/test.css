@@ -1,0 +1,296 @@
+main {
+  position: relative;
+  width: 97%;
+  height: 900px;
+
+  top: 0;
+  left: 0;
+  margin: 10px;
+
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgba(54, 69, 79, 0.5);
+  background: rgba(54, 69, 79, 0.15);
+}
+
+#central {
+  position: absolute;
+  width: 100%;
+
+  height: calc(200% / 3);
+  top: 0;
+  left: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgba(54, 69, 79, 0.5);
+  background: rgba(54, 69, 79, 0.15);
+}
+
+.hero {
+  grid-row: 1/2;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgba(54, 69, 79, 0.5);
+  background: rgba(54, 69, 79, 0.15);
+}
+
+.news {
+  grid-row: 4/5;
+
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgba(54, 69, 79, 0.5);
+  background: rgba(54, 69, 79, 0.15);
+}
+
+#left-side {
+  position: absolute;
+
+  width: 100%;
+
+  height: calc(100% / 3);
+  top: calc(100% / 6);
+  left: 0;
+  margin: 0;
+
+  z-index: 10;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgba(54, 69, 79, 0.5);
+  background: rgba(54, 69, 79, 0.15);
+}
+
+.event {
+  grid-row: 1/2;
+
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgba(54, 69, 79, 0.5);
+  background: rgba(54, 69, 79, 0.15);
+}
+
+.weather {
+  grid-row: 2/3;
+
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgba(54, 69, 79, 0.5);
+  background: rgba(54, 69, 79, 0.15);
+}
+
+.join {
+  display: none;
+}
+
+#right-side {
+  position: absolute;
+  width: 100%;
+
+  height: calc(100% / 3);
+  top: calc(200% / 3);
+  left: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgba(54, 69, 79, 0.5);
+  background: rgba(54, 69, 79, 0.15);
+}
+
+.spotlights1 {
+  grid-row: 1/2;
+  width: 100%;
+  margin: 0;
+
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgba(54, 69, 79, 0.5);
+  background: rgba(54, 69, 79, 0.15);
+}
+
+.spotlights2 {
+  grid-row: 2/3;
+  width: 100%;
+  margin: 0;
+
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgba(54, 69, 79, 0.5);
+  background: rgba(54, 69, 79, 0.15);
+}
+
+.spotlights3 {
+  display: none;
+}
+
+/*
+#central {
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: blue;
+}
+
+#left-side {
+  position: absolute;
+  width: 95%;
+  height: 40%;
+  top: 20%;
+  left: 0;
+  background-color: #e32827;
+  opacity: 80%;
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: yelow;
+}
+
+#right-side {
+  grid-row: 5/6;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: yelow;
+} */
+
+/* main {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  margin: 20px;
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: green;
+}
+
+#central {
+  z-index: 1;
+  width: 99%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: red;
+}
+
+#left-side {
+  z-index: 9;
+
+  width: 99%;
+  height: 40%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: blue;
+}
+
+#right-side {
+  /* z-index: 9;
+  width: 99%;
+  height: 40%;
+  position: absolute;
+  top: 90%;
+  left: 0;
+  opacity: 0.8; /* for demo purpose  */
+/* width: 99%;
+  height: 10%;
+  position: absolute;
+  border-style: solid;
+  border-radius: 1px; */
+/* border-color: yellow; */
+
+/* FIRST TWO ROWS */
+/* central part and child elements */
+
+/* .hero {
+  grid-row: 1/2;
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: green;
+} */
+
+/* .event {
+  grid-row: 2/3;
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: red;
+} */
+
+/* .weather {
+  grid-row: 3/4;
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: red;
+}
+
+.join {
+  display: none;
+}
+
+.news {
+  grid-row: 4/5;
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: red;
+}
+
+
+#right-side {
+  grid-row: 5/6;
+  
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: red;
+}
+
+.spotlights1 {
+  display: none;
+  grid-row: 1/2;
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: red;
+}
+
+.spotlights2 {
+  display: none;
+  grid-row: 2/3;
+
+  border-style: solid;
+  border-radius: 1px;
+  border-color: red;
+}
+
+.spotlights3 {
+ display: none;
+}
+ */

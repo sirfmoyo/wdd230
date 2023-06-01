@@ -1,0 +1,298 @@
+* {
+  margin: 5px;
+  /* padding: auto; */
+  /* box-sizing: border-box; */
+}
+
+header,
+main,
+footer {
+  display: block;
+}
+
+body {
+  font-size: 16px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem; /* 3 times the body text */
+}
+
+h2 {
+  font-size: 2rem; /* 2 times the body text */
+  /* padding: 0.15rem; */
+  /* color: #536878; */
+}
+
+h3 {
+  font-size: 1.5rem; /* 1 ½ times the body text */
+}
+
+figcaption {
+  font-size: 0.75rem; /* ¾ of the body text */
+}
+
+#container {
+  max-width: 100%; /* Set your desired maximum width */
+  margin: 0 auto;
+  /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; */
+
+  grid-template-rows: 3fr 1fr;
+
+  /* border-style: solid;
+  border-radius: 1px;
+  border-color: red; */
+}
+
+#upperheader {
+  display: grid;
+  grid-template-columns: 5fr 1fr 12fr;
+}
+
+#lowerheader {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #36454f; 
+   /* background-color: #FFA07A; */
+  box-shadow: 0 0 10px #333;
+  
+}
+
+#container img {
+  height: 3.5rem;
+}
+
+#container h1 {
+  font-size: 1.5rem;
+}
+
+#container h3 {
+  font-size: 1rem;
+}
+
+header,
+footer {
+  background-color: #708080;
+  /* background-color: #E9967A; */
+  /* display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center; */
+  padding: 0 0 1px 0;
+  color: #fff;
+}
+
+footer img {
+  height: 2.5rem;
+  /* padding: 5px 0 0 0; */
+}
+
+.logo {
+  grid-column-start: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  padding: 0px;
+  /* background-color: #333; */
+  color: #fff;
+
+  /* border-color: red;
+  border-style: solid; */
+}
+
+
+
+
+.navbar {
+  /* background-color: #333; */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-menu li {
+  margin-right: 15px;
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+
+
+#amalink {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* display: grid;
+  grid-template-columns: auto; */
+
+  /* background-color: #333; */
+  /* overflow: hidden; */
+  /* width: 100%; */
+}
+
+.site-name {
+  /* font-size: 30px;
+  font-weight: bold; */
+  margin: 0;
+}
+
+.links {
+  /* font-size: 8px; */
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+nav {
+  /* background-color: #36454f; */
+  text-align: center;
+  /* box-shadow: 0 0 30px #333; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin: 10px 0; */
+}
+
+/* .hamburger {
+  display: block;
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+} */
+
+/* nav div {
+	flex: 1 1 auto;
+} */
+/* 
+nav a {
+	display: block;
+	color: #f7d04b;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+} */
+
+.links li {
+  list-style-type: none;
+}
+
+nav a:hover {
+  background-color: #708080;
+  color: yellow;
+}
+
+
+footer {
+  display: grid;
+  /* padding: 1rem; */
+  /* grid-template-rows: 3fr 1fr; */
+  /* align-items: center;
+  justify-content: space-between;
+  font-weight: 700; */
+}
+
+.footer-container {
+  display: grid;
+  /* padding: 1rem; */
+  grid-template-rows: 3fr 1fr;
+  padding: 0;
+}
+
+#footerupper {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  justify-content: space-between;
+}
+
+
+#footerupper img {
+  height: 3.5rem;
+}
+
+#footerupper h1 {
+  font-size: 1.0rem;
+  font-weight: normal;
+}
+
+#footerupper h2 {
+  font-size: 0.95rem;
+  font-weight: normal;
+}
+
+#footerupper h3 {
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+#footerupper {
+  font-size: 0.65rem;
+}
+
+address {
+  text-align: right;
+  padding: 0 5px 0 0;
+}
+
+.footercopyright {
+  font-size: 0.75rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-top: 1px dashed #80461B;
+}
+
+
+
