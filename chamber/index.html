@@ -64,7 +64,17 @@
         </section>
         <section class="weather">
           <h3>Weather</h3>
-          <p>salibonani</p>
+          <form id="windChillForm">
+            <label for="temperature">Temperature (°F):</label>
+            <input type="number" id="temperature" required>
+        
+            <label for="windSpeed">Wind Speed (mph):</label>
+            <input type="number" id="windSpeed" required>
+        
+            <button type="submit">Calculate Wind Chill</button>
+          </form>
+        
+          <div id="result"></div>
         </section>
         <section class="join">
           <h3>Join</h3>
@@ -153,4 +163,5 @@
     </footer>
   </body>
   <script src="scripts/script.js"></script>
+  <script src="scripts/windchill.js"></script>
 </html>
