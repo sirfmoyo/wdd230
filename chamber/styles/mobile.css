@@ -134,3 +134,29 @@
     display: none;
   }
 }
+
+/* JOINFORM */
+#joinform {
+}
+
+select,
+option,
+input,
+label,
+button {
+}
+
+.form-box {
+}
+
+.form-box label {
+  display: none;
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+}
+
+.form-box button {
+}

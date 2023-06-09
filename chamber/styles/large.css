@@ -290,3 +290,39 @@
     margin: -1px 5px 5px 5px;
   }
 }
+
+/* JOINFORM */
+#joinform {
+}
+
+select,
+option,
+input,
+label,
+button {
+}
+
+.form-box {
+  flex-direction: row;
+}
+
+.form-box label {
+  flex-basis: 11rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.form-box button{
+  margin-left: 14rem;
+}
+#btnSend {
+  margin-left: 14rem;
+}

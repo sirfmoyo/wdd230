@@ -315,3 +315,45 @@ address {
 .image-container img:hover {
   transform: scale(1.1); /* add hover effect */
 }
+
+/* JOINFORM */
+
+#joinform {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+select, option, input, label, button {
+  padding: 0.2rem 1rem;
+  font-size: 1.2rem;
+  color: inherit;
+}
+
+.form-box {
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box label {
+
+}
+
+.form-box input, .form-box select, .form-box textarea {
+  flex-basis: 100%;
+}
+
+.form-box button {}
+
+/* THANK YOU */
+
+#thanks {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
