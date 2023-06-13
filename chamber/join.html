@@ -44,8 +44,13 @@
                 <li><a href="#">Contact</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
+                
+                <li class="social"><a href="https://www.facebook.com/">
+                  <img src="images/facebook.png" alt="facebook logo">
+              </a></li>
+                <li class="social"><a href="https://www.twitter.com/">
+                  <img src="images/twitter.png" alt="twitter logo">
+              </a></li>
               </ul>
             </nav>
           </div>
@@ -54,38 +59,229 @@
           </div>
         </div>
       </header>
-    <main id="joinform">
-      <h2>Join the Chamber of Commerce</h2>
-      <form action="thankyou.html">
-      <!-- <form action="thankyou.html" method="post"> -->
-      <!-- <form name="my-form" action="#" method="get"> -->
-        <div class="form-box">
-            <label for="first-name">First Name:</label>
-            <input type="text" id="first-name" name="first-name" placeholder= "First Name" pattern="[A-Za-z .-]+" required>
-        </div>
-        <div class="form-box">
-            <label for="last-name">Last Name:</label>
-            <input type="text" id="last-name" name="last-name" placeholder= "Last Name"  pattern="[A-Za-z .-]+" required>
-        </div>
-
-        <div class="form-box">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder= "Email"  required>
-        </div>
-
-        <div class="form-box">
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" placeholder= "Phone"  pattern="[0-9 ()+-]+" required>
-        </div>
-
-        <div class="form-box">
-            <!-- <button id="btnSend">Join</button> -->
-            <input id="btnSend" type="submit" value="Join">
-        </div>
-
-        <!-- <input type="submit" value="Join"> -->
-      </form>
-    </main>
+      <main id="joinform">
+        <section class="heading-join-us-page">
+          <h2>Join the Manama RDC Chamber of Commerce</h2>
+        </section>
+  
+        <section class="container">
+          <form
+            method="get"
+            action="thankyou.html"
+            id="form"
+            class="form"
+            novalidate
+          >
+            <fieldset>
+              <legend><h2>Applicant Information</h2></legend>
+              <div class="form-control">
+                <label class="top"
+                  >First Name*
+                  <input
+                    type="text"
+                    name="fname"
+                    placeholder="Ibizo"
+                    id="fname"
+                    required
+                  />
+                </label>
+                <ion-icon
+                  name="checkmark-circle-outline"
+                  class="checkmark-circle-outline"
+                ></ion-icon>
+                <ion-icon
+                  name="alert-circle-outline"
+                  class="alert-circle-outline"
+                ></ion-icon>
+                <small>Error message</small>
+              </div>
+  
+              <div class="form-control">
+                <label class="top"
+                  >Last Name*
+                  <input
+                    type="text"
+                    name="lname"
+                    placeholder="Isibongo"
+                    id="lname"
+                    required
+                /></label>
+                <ion-icon
+                  name="checkmark-circle-outline"
+                  class="checkmark-circle-outline"
+                ></ion-icon>
+                <ion-icon
+                  name="alert-circle-outline"
+                  class="alert-circle-outline"
+                ></ion-icon>
+                <small>Error message</small>
+              </div>
+  
+              <div class="form-control">
+                <label class="top"
+                  >Title
+                  <input
+                    type="text"
+                    name="title"
+                    placeholder="uyini ekampanini"
+                    id="title"
+                /></label>
+                <ion-icon
+                  name="checkmark-circle-outline"
+                  class="checkmark-circle-outline"
+                ></ion-icon>
+                <ion-icon
+                  name="alert-circle-outline"
+                  class="alert-circle-outline"
+                ></ion-icon>
+                <small>Error message</small>
+              </div>
+  
+              <div class="form-control">
+                <label class="top"
+                  >Email*
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="username@manamardc.co.zw"
+                    id="email"
+                    required
+                /></label>
+                <ion-icon
+                  name="checkmark-circle-outline"
+                  class="checkmark-circle-outline"
+                ></ion-icon>
+                <ion-icon
+                  name="alert-circle-outline"
+                  class="alert-circle-outline"
+                ></ion-icon>
+                <small>Error message</small>
+              </div>
+  
+              <div class="form-control">
+                <label class="top"
+                  >Cell Phone*
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="0733214032"
+                    id="phone"
+                    required
+                /></label>
+                <ion-icon
+                  name="checkmark-circle-outline"
+                  class="checkmark-circle-outline"
+                ></ion-icon>
+                <ion-icon
+                  name="alert-circle-outline"
+                  class="alert-circle-outline"
+                ></ion-icon>
+                <small>Error message</small>
+              </div>
+            </fieldset>
+  
+            <fieldset>
+              <legend><h2>Business Information</h2></legend>
+              <div class="form-control">
+                <label class="top"
+                  >Business Name*
+                  <input
+                    type="text"
+                    name="bname"
+                    placeholder="ibizo le Kampani"
+                    id="bname"
+                    required
+                /></label>
+                <ion-icon
+                  name="checkmark-circle-outline"
+                  class="checkmark-circle-outline"
+                ></ion-icon>
+                <ion-icon
+                  name="alert-circle-outline"
+                  class="alert-circle-outline"
+                ></ion-icon>
+                <small>Error message</small>
+              </div>
+  
+              <label class="top"
+                >Business Description
+                <textarea
+                  rows="4"
+                  cols="50"
+                  name="bdescription"
+                  placeholder="Kampani leyi yi Kambapani endala eyasungulwa ngomnyaka ka......"
+                  id="bdescription"
+                ></textarea>
+              </label>
+            </fieldset>
+  
+            <div class="input-field">
+              <label for="membership">Membership Level </label>
+              <select name="membership" id="membership">
+                  <option>Select an option</option>
+                  <option value="np">NP Membership is for non profit organizations and there is no fee.</option>
+                  <option value="bronze">Bronze Membership.</option>
+                  <option value="silver">Silver Membership</option>
+                  <option value="gold">Gold Membership</option>
+              </select><br><br>
+          </div>
+  
+              <div class="np-benefits is-hidden">
+                <h3>NP Membership - Free</h3>
+                <ul>
+                  <li>Benefit 1</li>
+                  <li>Benefit 2</li>
+                  <li>Benefit 3</li>
+                  <li>Benefit 4</li>
+                </ul>
+              </div>
+  
+              <div class="bronze-benefits is-hidden">
+                <h3>Bronze Membership - $100 p.a</h3>
+                <ul>
+                  <li>Benefit 1</li>
+                  <li>Benefit 2</li>
+                  <li>Benefit 3</li>
+                  <li>Benefit 4</li>
+                </ul>
+              </div>
+  
+              <div class="silver-benefits is-hidden">
+                <h3>Silver Membership - $250 p.a</h3>
+                <ul>
+                  <li>Benefit 1</li>
+                  <li>Benefit 2</li>
+                  <li>Benefit 3</li>
+                  <li>Benefit 4</li>
+                </ul>
+              </div>
+  
+              <div class="gold-benefits is-hidden">
+                <h3>Gold Membership - $500 p.a</h3>
+                <ul>
+                  <li>Benefit 1</li>
+                  <li>Benefit 2</li>
+                  <li>Benefit 3</li>
+                  <li>Benefit 4</li>
+                </ul>
+              </div>
+            </fieldset>
+  
+            <input
+              type="hidden"
+              id="date-time"
+              name="date-time"
+              value="currentDateTime"
+            />
+  
+            <input
+              type="submit"
+              value="Join the chamber"
+              class="submitBtn"
+            />
+          </form>
+        </section>
+      </main>
     <footer>
         <!-- Add your footer content here -->
         <div class="footer-container">

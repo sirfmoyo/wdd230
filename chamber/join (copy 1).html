@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Manama District Chamber | Discover</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <!-- <link rel="stylesheet" href="styles/test.css"/> -->
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="styles/mobile.css">
+    <link
+      rel="stylesheet"
+      href="styles/medium.css"
+      media="screen and (min-width: 601px) and (max-width: 991px)">
+    <link
+      rel="stylesheet"
+      href="styles/large.css"
+      media="screen and (min-width: 992px)">
+  </head>
+  <body id="discover">
+    <header>
+        <div id="container">
+          <div id="upperheader">
+            <div class="logo">
+              <img src="images/logo.webp" alt="Manama Chamber of Commerce logo">
+              <!-- Manama District Chamber -->
+              <div class="site-name">
+                <h1>Manama RDC</h1>
+                <h3>Chamber of Commerce</h3>
+              </div>
+            </div>
+            <!-- blank space -->
+            <div></div>
+            <nav class="navbar">
+              <div class="navbar-brand">
+                <span class="navbar-toggle" id="navbar-toggle">&#9776;</span>
+                <!-- <a href="#" class="navbar-logo">Logo</a> -->
+              </div>
+              <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div id="lowerheader">
+            WDD 230 Project | Last modified: <span id="last-modified"></span>
+          </div>
+        </div>
+      </header>
+    <main id="joinform">
+      <h2>Join the Chamber of Commerce</h2>
+      <form action="thankyou.html">
+      <!-- <form action="thankyou.html" method="post"> -->
+      <!-- <form name="my-form" action="#" method="get"> -->
+        <div class="form-box">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" placeholder= "First Name" pattern="[A-Za-z .-]+" required>
+        </div>
+        <div class="form-box">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" placeholder= "Last Name"  pattern="[A-Za-z .-]+" required>
+        </div>
+
+        <div class="form-box">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder= "Email"  required>
+        </div>
+
+        <div class="form-box">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder= "Phone"  pattern="[0-9 ()+-]+" required>
+        </div>
+
+        <div class="form-box">
+            <!-- <button id="btnSend">Join</button> -->
+            <input id="btnSend" type="submit" value="Join">
+        </div>
+
+        <!-- <input type="submit" value="Join"> -->
+      </form>
+    </main>
+    <footer>
+        <!-- Add your footer content here -->
+        <div class="footer-container">
+          <div id="footerupper">
+            <div class="logo">
+              <div>
+                <div></div>
+                <img
+                  src="images/logo.webp"
+                  alt="Manama Chamber of Commerce logo">
+              </div>
+              <div class="contact">
+                <h1>Manama Rural District Center</h1>
+                <h2>Chamber of Commerce</h2>
+                <h4>P. Bag 5838, Gwanda</h4>
+              </div>
+            </div>
+  
+            <div class="map">
+              <address>
+                Contact us at<a href="mailto:info@manamardc.org"
+                  >info@manamardc.org</a
+                ><br>
+                Visit us at: Reception desk, 1st floor Mpokiseng Complex<br>
+                www.manamardc.org<br>
+                <!-- P Bag 5838, Gwanda<br>
+                Zimbabwe <br> -->
+                +263733214032<br>
+                <a href="#">View Map</a>
+              </address>
+            </div>
+          </div>
+          <div class="footercopyright">
+            &copy; <span id="year"></span> My Chamber | Created by Freeman Moyo |
+            WDD 230 Project | Last modified: <span id="last-modified1"></span>
+          </div>
+        </div>
+      </footer>
+      <script src="scripts/script.js"></script>
+      <script src="scripts/windchill.js"></script>
+  </body>
+</html>
