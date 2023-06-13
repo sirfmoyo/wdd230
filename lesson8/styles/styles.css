@@ -31,3 +31,8 @@ th:nth-child(2),th:nth-child(3),th:nth-child(4){
 tbody tr:nth-child(2) {
 	background-color:  rgba(54, 69, 79, 0.15);
 }
+
+.red-text {
+    color: #FF0000;
+}
+
