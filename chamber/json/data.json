@@ -1,0 +1,77 @@
+{
+  "companies": [
+    {
+      "name": "Mpokiseng Nursery",
+      "address": "Stand 07 Mabantu Road",
+      "phone": "+263 776 172  298",
+      "url": "https://manamanursery.co.zw",
+      "logo": "images/nursery.png",
+      "membership": "Gold Membership"
+    },
+    {
+      "name": "Mdawini Gas",
+      "address": "Complex 174 Business Center",
+      "phone": "+263 713 089 849",
+      "url": "http://victorgas.co.zw",
+      "logo": "images/mdawini.png",
+      "membership": "Silver Membership"
+    },
+    {
+      "name": "Goodwill Moyo - Pharmacy",
+      "address": "Moyo Medical Complex - Pharmacy",
+      "phone": "01756 700144",
+      "url": "https://moyomedicals.co.zw/pharmarcy",
+      "logo": "images/goodwill.png",
+      "membership": "Gold Membership"
+    },
+    {
+      "name": "Reaboka Doctor's Inn",
+      "address": "Moyo Medical Complex -  Dr Inn",
+      "phone": "+263 713 191  467",
+      "url": "https://moyomedicals.co.zw/drinn",
+      "logo": "images/reaboka.png",
+      "membership": "Gold Membership"
+    },
+    {
+      "name": "Nkosiyabo Technologies",
+      "address": "Complex 43 Business Center",
+      "phone": "+267 72 92 34 08",
+      "url": "https://nkosiyabo-tech.co.zw",
+      "logo": "images/nkositech.png",
+      "membership": "Bronze Membership"
+    },
+    {
+      "name": "Sechaba Agrifeeds",
+      "address": "Complex 23 Business Center",
+      "phone": "+263 976 172  238",
+      "url": "https//sechabafeeds.co.zw",
+      "logo": "images/sechaba.png",
+      "membership": "Gold Membership"
+    },
+    {
+      "name": "Manka Agrihub",
+      "address": "Stand 15, Number 10",
+      "phone": "+263 777 490 772",
+      "url": "https://manka-agric.co.zw",
+      "logo": "images/manka.png",
+      "membership": "Bronze Membership"
+    },
+    {
+      "name": "Lhee Hardware",
+      "address": "Stand 15AA, Mabantu Road",
+      "phone": "+263 778 578 332",
+      "url": "https://lheelogistics.co.zw/hardware",
+      "logo": "images/lhee.png",
+      "membership": "Gold Membership"
+    },
+    {
+      "name": "Lesedi Excellence Collage",
+      "address": "Stand 25, Mabantu Road",
+      "phone": "+267 74 01 57 67",
+      "url": "https://lesedi-group.co.zw",
+      "logo": "images/lesedi.png",
+      "membership": "Silver Membership"
+    }
+    
+  ]
+}
