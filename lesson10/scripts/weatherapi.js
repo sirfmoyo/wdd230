@@ -37,7 +37,6 @@ apiFetch();
 
 
 
-/*Today is date in footer*/
 const date = document.querySelector("#date");
 const message = document.querySelector("#emessage");
 // Try to complete the method with options
@@ -48,7 +47,7 @@ try {
 		month: "long",
 		year: "numeric"
 	};
-	date.innerHTML = ` <span class="highlight">${new Date().toLocaleDateString("en-UK", options)}</span>!`;
+	date.innerHTML = ` <span class="highlight">${new Date().toLocaleDateString("en-UK", options)}</span>`;
 } catch (e) {
 	console.log("Error with code or your browser does not support Locale");
 }
