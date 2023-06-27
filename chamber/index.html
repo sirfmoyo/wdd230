@@ -67,7 +67,7 @@
           <p>salibonani</p>
         </section>
         <section class="weather">
-          <h3>Weather</h3>
+          <!-- <h3>Weather</h3>
           <form id="windChillForm">
             <label for="temperature">Temperature (°F):</label>
             <input type="number" id="temperature" required>
@@ -78,7 +78,29 @@
             <button type="submit">Calculate Wind Chill</button>
           </form>
         
-          <div id="result"></div>
+          <div id="result"></div> -->
+        <h3>Weather</h3>
+          <!-- <div class="container"> -->
+            <div class="weather-info">
+                <p class="temperature">The temperature is<span id="current-temp"></span> &deg;C</p>
+                <p>Current Condition Icon</p>
+                <figure>
+                    <img src="" alt="weather-icon" id="weather-icon" />
+                    <figcaption>
+                        <p><span id="weather-description"></span></p>
+                    </figcaption>
+                </figure>
+
+                <p class="openweathermap">
+                  Our weather is courtesy of
+                  <a href="https://openweathermap.org" target="_blank"
+                    >openweathermap.org</a
+                  >
+                </p>
+
+            </div>
+        <!-- </div> -->
+        
         </section>
         <section class="join">
           <h3>Join</h3>
@@ -164,7 +186,9 @@
       </div>
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <!-- <script src="scripts/windchill.js"></script> -->
+    <!-- <script src="scripts/weatherapi.js"></script> -->
+    <script src="/lesson10/scripts/weatherapi.js"></script>
   </body>
   
 </html>
